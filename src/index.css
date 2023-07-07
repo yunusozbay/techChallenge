@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    max-width: 100vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: normal;
+    color: black;
+    background-color: greenyellow;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+  }
+
+.card {
+  background-color: rgb(35, 0, 209);
+}
+.card-body{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 150px);
+    gap: 20px;
+}
+
+.search-form {
+  border-radius: 20rem;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selector {
+  margin-bottom: 2rem;
+}
+
+.player-details {
+  margin: auto;
+}
